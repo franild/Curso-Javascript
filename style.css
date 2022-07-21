@@ -1,0 +1,25 @@
+body {
+  text-align: center;
+  background-color: gainsboro;
+}
+
+.controles {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+input {
+  margin: auto;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 8px;
+}
+
+#res {
+  margin-top: 16px;
+}
+
+br {
+  margin-top: 16px;
+}
