@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <title>Tintas Boa</title>
+</head>
+<style>
+body {
+  text-align: center;
+}
+input {
+  display: flex;
+  margin: auto;
+}
+</style>
+<body>
+  <section>
+     <h1>Calculo Para Pintar</h1>
+  <p>
+    Digite a largura e altura de sua parede para calcular a quantidade de tinta a ser usada.
+  </p>
+    <p>
+      Altura:<input type="number" name="txtn1" id="txtn1"><br>
+    </p>
+    <p>
+      Largura:<input type="number" name="txtn2" id="txtn2">
+    </p>
+    <input type="button" value="Calcular" onclick="calcular()">
+    <div id="res">
+      
+    </div>
+  </section>
+  <script src="script.js"></script>
+</body>
+</html>
